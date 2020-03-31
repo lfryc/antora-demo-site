@@ -1,0 +1,13 @@
+= Antora Demo Site
+
+Featuring build-based index using Lunr via link:https://github.com/Mogztter/antora-lunr[antora-lunr]
+
+----
+DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr $(npm bin)/antora antora-playbook.yml
+----
+
+----
+$(npm bin)/httpster -p 5000 -d build/site
+----
+
+
