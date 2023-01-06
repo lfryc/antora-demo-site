@@ -12,6 +12,6 @@
     "@antora/cli": "^2.2.0",
     "@antora/site-generator-default": "^2.2.0",
     "antora-lunr": "^0.5.0",
-    "httpster": "^1.0.4"
+    "httpster": "^1.1.0"
   }
 }
